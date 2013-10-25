@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c00ef98e-9d1f-4f6f-bea7-cc3de093acee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/user_test.rb" afterPath="$PROJECT_DIR$/test/unit/user_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/profiles.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/profiles.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/profiles_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/profiles_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/profiles_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/profiles_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/profiles/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="treebook.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c00ef98e-9d1f-4f6f-bea7-cc3de093acee" time="1382683728149" ignored="false" />
+    <file path="/Dummy.txt" changelist="c00ef98e-9d1f-4f6f-bea7-cc3de093acee" time="1382683889550" ignored="false" />
     <file path="/user.rb" changelist="c00ef98e-9d1f-4f6f-bea7-cc3de093acee" time="1382677166445" ignored="false" />
     <file path="/user_test.rb" changelist="c00ef98e-9d1f-4f6f-bea7-cc3de093acee" time="1382683557373" ignored="false" />
     <file path="/Rails treebook: development" changelist="c00ef98e-9d1f-4f6f-bea7-cc3de093acee" time="1381814904381" ignored="false" />
@@ -25,6 +32,7 @@
     <file path="/a.dummy" changelist="c00ef98e-9d1f-4f6f-bea7-cc3de093acee" time="1382676682166" ignored="false" />
     <file path="/status_test.rb" changelist="c00ef98e-9d1f-4f6f-bea7-cc3de093acee" time="1382682624007" ignored="false" />
     <file path="/status.rb" changelist="c00ef98e-9d1f-4f6f-bea7-cc3de093acee" time="1382682762243" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="c00ef98e-9d1f-4f6f-bea7-cc3de093acee" time="1382684155555" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +69,7 @@
       <file leaf-file-name="user_test.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/user_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="40" selection-start="436" selection-end="436" vertical-scroll-proportion="0.3232662">
+            <state line="33" column="86" selection-start="979" selection-end="979" vertical-scroll-proportion="0.9492386">
               <folding />
             </state>
           </provider>
@@ -716,7 +724,11 @@
       <created>1382682828797</created>
       <updated>1382682828797</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed bug with user validation">
+      <created>1382683892060</created>
+      <updated>1382683892060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -741,10 +753,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34891304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14514408" sideWeight="0.67065215" order="3" side_tool="false" content_ui="tabs" />
@@ -805,7 +817,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added status validations and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug with user validation" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -823,6 +835,7 @@
     <MESSAGE value="Added Custom Routes for auth and feed" />
     <MESSAGE value="Added Tests for Custom Routes for auth and feed" />
     <MESSAGE value="Added status validations and test" />
+    <MESSAGE value="Fixed bug with user validation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -961,7 +974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/user_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="40" selection-start="436" selection-end="436" vertical-scroll-proportion="0.3232662">
+        <state line="33" column="86" selection-start="979" selection-end="979" vertical-scroll-proportion="0.9492386">
           <folding />
         </state>
       </provider>
