@@ -5,3 +5,11 @@ spenser:
   email: "sphale@live.com"
   profile_name: "spenserhale"
   encrypted_password: "password"
+
+tiffany:
+  first_name: "Tiffany"
+  last_name: "Blakesley"
+  email: "tiffanyblakesley@hotmail.com"
+  profile_name: "tiffanyblakesley"
+  encrypted_password: "password"
+

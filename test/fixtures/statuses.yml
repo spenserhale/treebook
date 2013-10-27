@@ -1,10 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  content: First Test
+  content: "First Test"
   user: spenser
 
 two:
-  content: Second Test
+  content: "Second Test"
+  user: tiffany
+
+three:
+  content: "Third Test"
   user: spenser
+
 
